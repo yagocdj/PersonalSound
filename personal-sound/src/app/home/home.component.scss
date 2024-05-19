@@ -5,7 +5,7 @@
 }
 
 #intro-btn {
-    width: 60%;
+    width: 65%;
     max-width: 288px;
 }
 
@@ -14,5 +14,8 @@
     justify-content: center;
 }
 
-// @media (min-width: 576px) and (max-width: 768px) {
-// }
+@media (min-width: 576px) {
+    .block-container {
+        width: min(80%, 470px);
+    }
+}
