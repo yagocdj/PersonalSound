@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navigation/navbar/navbar.component';
 
-// TODO - finish the app's routing
 
 @Component({
   selector: 'app-root',

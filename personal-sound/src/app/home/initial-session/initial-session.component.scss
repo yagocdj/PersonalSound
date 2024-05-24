@@ -1,0 +1,21 @@
+.block-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-btn {
+    width: 65%;
+    max-width: 288px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    .block-container {
+        width: min(80%, 470px);
+    }
+}
